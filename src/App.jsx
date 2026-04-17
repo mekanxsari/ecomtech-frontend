@@ -11,7 +11,10 @@ function App() {
     const [selectedProduct, setSelectedProduct] = useState(null);
 
     useEffect(() => {
-        fetch('/data/data.json')
+        const baseUrl = import.meta.env.BASE_URL || '/';
+        const jsonUrl = `${baseUrl}data/data.json`;
+        
+        fetch(jsonUrl)
             .then(res => res.json())
             .then(data => {
                 setProducts(data);
