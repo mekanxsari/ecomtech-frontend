@@ -2,16 +2,12 @@
 
 Github Pages: https://mekanxsari.github.io/ecomtech-frontend/
 
----
-
 ## Основной функционал
 
 - Каталог товаров  
 - Поиск и фильтрация  
 - Модал товара  
 - Адаптивный дизайн  
-
----
 
 ## Технологический стек
 
@@ -20,8 +16,6 @@ Github Pages: https://mekanxsari.github.io/ecomtech-frontend/
 - Стили: CSS3  
 - HTTP клиент: Fetch API  
 - Сборка: Vite  
-
----
 
 ## Структура проекта
 
@@ -47,8 +41,6 @@ Github Pages: https://mekanxsari.github.io/ecomtech-frontend/
 
 ```
 
----
-
 ## Источник данных
 
 Данные товаров хранятся в файле:
@@ -59,8 +51,6 @@ public/data/data.json
 
 ```
 
----
-
 ## Установка
 
 ```bash
@@ -68,8 +58,6 @@ git clone https://github.com/mekanxsari/ecomtech-frontend.git
 cd ecomtech-frontend
 npm install
 ```
-
----
 
 ## Запуск проекта
 
@@ -83,8 +71,6 @@ npm run dev
 http://localhost:5173
 ```
 
----
-
 ## Сборка для production
 
 ```bash
@@ -96,8 +82,6 @@ npm run build
 ```
 dist/
 ```
-
----
 
 ## Автор
 
