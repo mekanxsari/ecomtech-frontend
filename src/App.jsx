@@ -11,8 +11,7 @@ function App() {
     const [selectedProduct, setSelectedProduct] = useState(null);
 
     useEffect(() => {
-        const baseUrl = import.meta.env.BASE_URL || '/';
-        const jsonUrl = `${baseUrl}data/data.json`;
+        const jsonUrl = `https://mekanxsari.github.io/ecomtech-frontend/data/data.json`;
         
         fetch(jsonUrl)
             .then(res => res.json())
